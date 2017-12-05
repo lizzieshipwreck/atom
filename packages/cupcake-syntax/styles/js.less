@@ -1,0 +1,77 @@
+.syntax--js {
+  &.syntax--variable.syntax--other.syntax--object {
+    color: @yellow;
+  }
+  
+  &.syntax--constant.syntax--other.syntax--property {
+    color: @foreground;
+  }
+
+  &.syntax--keyword.syntax--operator {
+    color: @aqua;
+  }
+
+  &.syntax--variable {
+    color: @foreground;
+
+    &.syntax--class {
+      color: @red1;
+    }
+
+    &.syntax--language.syntax--this {
+      color: @red1;
+    }
+  }
+
+  &.syntax--support {
+    &.syntax--constant {
+      color: @foreground;
+    }
+
+    &.syntax--object {
+      color: @yellow;
+    }
+
+    &.syntax--variable {
+      color: @yellow;
+    }
+  }
+
+  &.syntax--meta.syntax--brace.syntax--square {
+    color: @lavender;
+    background-color: fadeout(@lavender, 93%);
+  }
+
+  &.syntax--meta.syntax--brace.syntax--curly {
+    color: @red1;
+    background-color: fadeout(@red1, 93%);
+  }
+
+  &.syntax--meta.syntax--brace.syntax--round {
+    color: @aqua;
+    background-color: fadeout(@aqua, 93%);
+  }
+
+  &.syntax--punctuation {
+    &.syntax--separator.syntax--key-value {
+      color: @aqua;
+    }
+
+    &.syntax--definition {
+      &.syntax--string {
+        color: @green;
+        background-color: fadeout(@green, 93%);
+      }
+
+      &.syntax--parameters {
+        color: @aqua;
+        background-color: fadeout(@aqua, 93%);
+      }
+
+      &.syntax--arguments {
+        color: @aqua;
+        background-color: fadeout(@aqua, 93%);
+      }
+    }
+  }
+}

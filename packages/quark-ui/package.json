@@ -1,0 +1,63 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55902-1ldikix.0tvqvndn29/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55902-1ldikix.0tvqvndn29/package.tgz",
+        "spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55902-1ldikix.0tvqvndn29/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/apm-install-dir-1171014-55902-9krjcl.hpnuhm2t9"
+    ]
+  ],
+  "_from": "../d-1171014-55902-1ldikix.0tvqvndn29/package.tgz",
+  "_id": "quark-ui@0.1.3",
+  "_inCache": true,
+  "_location": "/quark-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55902-1ldikix.0tvqvndn29/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55902-1ldikix.0tvqvndn29/package.tgz",
+    "spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55902-1ldikix.0tvqvndn29/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1171014-55902-1ldikix.0tvqvndn29/package.tgz",
+  "_shasum": "82e9d507e05f41cc3032add80c879dac47873bf5",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55902-1ldikix.0tvqvndn29/package.tgz",
+  "_where": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/apm-install-dir-1171014-55902-9krjcl.hpnuhm2t9",
+  "bugs": {
+    "url": "https://github.com/leomarquine/quark-ui/issues"
+  },
+  "dependencies": {},
+  "description": "A minimalist dark UI theme for Atom.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/leomarquine/quark-ui#readme",
+  "keywords": [
+    "ui",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "quark-ui",
+  "optionalDependencies": {},
+  "readme": "# Quark UI (in development)\n\nA minimalist theme that fits your syntax color.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leomarquine/quark-ui.git"
+  },
+  "theme": "ui",
+  "version": "0.1.3"
+}

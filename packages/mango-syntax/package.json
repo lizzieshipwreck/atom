@@ -1,0 +1,59 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-36589-hh2021.ezhq6w29/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-36589-hh2021.ezhq6w29/package.tgz",
+        "spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-36589-hh2021.ezhq6w29/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/apm-install-dir-1171013-36589-12aqe8q.xmevp1fw29"
+    ]
+  ],
+  "_from": "../d-1171013-36589-hh2021.ezhq6w29/package.tgz",
+  "_id": "mango-syntax@0.2.4",
+  "_inCache": true,
+  "_location": "/mango-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-36589-hh2021.ezhq6w29/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-36589-hh2021.ezhq6w29/package.tgz",
+    "spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-36589-hh2021.ezhq6w29/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1171013-36589-hh2021.ezhq6w29/package.tgz",
+  "_shasum": "f3deccce6d462f57e7a4a985beb42c6b9a279b23",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-36589-hh2021.ezhq6w29/package.tgz",
+  "_where": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/apm-install-dir-1171013-36589-12aqe8q.xmevp1fw29",
+  "bugs": {
+    "url": "https://github.com/Dubstepper/mango-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "Syntax theme inspired by the Monokai theme",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/Dubstepper/mango-syntax#readme",
+  "license": "MIT",
+  "name": "mango-syntax",
+  "optionalDependencies": {},
+  "readme": "# Mango Syntax theme\n\nInspired by the Monokai theme.\n\nThe font used in the screenshot is called [Raleway](http://www.google.com/fonts#UsePlace:use/Collection:Raleway)\n\n### Preview:\n![Mango-Syntax.png](https://raw.githubusercontent.com/Dubstepper/mango-syntax/master/Mango-Syntax.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dubstepper/mango-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.2.4"
+}

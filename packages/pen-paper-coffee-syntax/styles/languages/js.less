@@ -1,0 +1,25 @@
+.syntax--source .syntax--js {
+ &.syntax--brace.syntax--round, &.syntax--brace.syntax--curly {
+     color: darken(@very-light-ink, 5%);
+ }
+
+ &.syntax--punctuation.syntax--terminator.syntax--statement {
+      color: @light-ink;
+}
+
+
+&.syntax--delimiter.syntax--method.syntax--period {
+  color: @very-light-ink;
+}
+
+&.syntax--delimiter.syntax--object.syntax--comma {
+  color: darken(@very-light-ink, 5%);
+}
+
+// `this` keyword in JS
+&.syntax--variable.syntax--language.syntax--js {
+  color: @cyan;
+}
+
+
+}

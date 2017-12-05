@@ -1,0 +1,47 @@
+.syntax--gfm {
+  -webkit-font-smoothing: auto;
+
+  .syntax--marker {
+    color: @red1;
+  }
+
+  .syntax--bold {
+    color: @yellow;
+    font-style: bold;
+  }
+
+  .syntax--italic {
+    color: @red2;
+    font-style: italic;
+  }
+
+  .syntax--quote {
+    color: @green;
+  }
+
+  .syntax--list {
+    color: @aqua;
+  }
+
+  .syntax--link {
+    color: @lavender;
+
+    & .syntax--entity {
+      color: @foreground;
+    }
+
+    & .syntax--begin,
+    & .syntax--end {
+      background-color: fadeout(@lavender, 93%);
+    }
+  }
+
+  .syntax--raw {
+    color: darken(@foreground, 12%);
+  }
+
+  .syntax--hr {
+    background-color: @current-line;
+    color: @foreground;
+  }
+}

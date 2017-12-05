@@ -1,0 +1,20 @@
+"*":
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "min-ui"
+      "cake-syntax"
+    ]
+  editor: {}
+  "exception-reporting":
+    userId: "126f7699-dde5-4c46-95f2-3920b5a047bc"
+  fonts:
+    fontFamily: "Roboto Mono Thin"
+  "linter-eslint":
+    disableEslintIgnore: true
+    fixOnSave: true
+    lintHtmlFiles: true
+  "linter-ui-default":
+    showProviderName: true
+  welcome:
+    showOnStartup: false

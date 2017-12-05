@@ -1,0 +1,29 @@
+.syntax--coffee {
+  &.syntax--keyword.syntax--operator {
+    color: @aqua;
+  }
+
+  &.syntax--variable.syntax--assignment {
+    color: @orange;
+  }
+
+  &.syntax--meta.syntax--brace.syntax--square {
+    color: @lavender;
+    background-color: fadeout(@lavender, 93%);
+  }
+
+  &.syntax--meta.syntax--brace.syntax--curly {
+    color: @red1;
+    background-color: fadeout(@red1, 93%);
+  }
+
+  &.syntax--meta.syntax--brace.syntax--round {
+    color: @aqua;
+    background-color: fadeout(@aqua, 93%);
+  }
+
+  &.syntax--punctuation.syntax--definition.syntax--string {
+    color: @green;
+    background-color: fadeout(@green, 93%);
+  }
+}

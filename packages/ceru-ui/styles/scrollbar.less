@@ -1,0 +1,18 @@
+.scrollbars-visible-always {
+	/deep/ ::-webkit-scrollbar {
+		width: 10px;
+		height: 10px;
+
+		&-track {
+			background-color: @black;
+		}
+
+		&-thumb {
+			background-color: lighten(@black, 3%);
+		}
+
+		&-corner {
+			background-color: @black;
+		}
+	}
+}

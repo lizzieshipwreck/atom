@@ -1,0 +1,49 @@
+atom-panel.modal.from-top {
+    top: 75px;
+}
+
+atom-panel.modal {
+    background: transparent;
+}
+
+atom-panel.modal::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: @base-background-color;
+    z-index: -1;
+    border-radius: 3px;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+atom-panel.modal::after {
+    content: '';
+    position: fixed;
+    background: darken(@base-background-color, 10%);
+    opacity: 0.75;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    backface-visibility: hidden;
+    z-index: -2;
+}
+
+atom-panel.modal {
+    .list-group {
+        border: 1px solid darken(@base-border-color, 3%);
+
+        li {
+            &:not(:last-child) {
+                border-bottom: 1px solid darken(@base-border-color, 3%);
+            }
+
+            .icon.status {
+                float: right;
+            }
+        }
+    }
+}

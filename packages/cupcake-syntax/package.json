@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-36768-32k5og.kyfcd6lxr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-36768-32k5og.kyfcd6lxr/package.tgz",
+        "spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-36768-32k5og.kyfcd6lxr/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/apm-install-dir-1171013-36768-1mcglsn.xeuxgbke29"
+    ]
+  ],
+  "_from": "../d-1171013-36768-32k5og.kyfcd6lxr/package.tgz",
+  "_id": "cupcake-syntax@0.7.1",
+  "_inCache": true,
+  "_location": "/cupcake-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-36768-32k5og.kyfcd6lxr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-36768-32k5og.kyfcd6lxr/package.tgz",
+    "spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-36768-32k5og.kyfcd6lxr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1171013-36768-32k5og.kyfcd6lxr/package.tgz",
+  "_shasum": "c1bfee97f270421e469fdde8083951b43beba9de",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-36768-32k5og.kyfcd6lxr/package.tgz",
+  "_where": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/apm-install-dir-1171013-36768-1mcglsn.xeuxgbke29",
+  "bugs": {
+    "url": "https://github.com/danielamunoz/cupcake-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "Cupcake syntax for Atom based on Tomorrow theme",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/danielamunoz/cupcake-syntax#readme",
+  "keywords": [
+    "cupcake",
+    "tomorrow",
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "cupcake-syntax",
+  "optionalDependencies": {},
+  "readme": "# Cupcake Atom Syntax Theme\n\nAtom syntax theme based on [Tomorrow Night Eighties Atom Syntax](https://github.com/rockymadden/tomorrow-night-eighties-syntax-theme)\n\n![JavaScript example](https://raw.githubusercontent.com/danielamunoz/cupcake-syntax/master/js.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielamunoz/cupcake-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.7.1"
+}

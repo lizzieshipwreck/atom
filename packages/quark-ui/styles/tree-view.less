@@ -1,0 +1,48 @@
+.tree-view-resizer {
+  border-right: 1px solid @base-border-color;
+}
+
+.tree-view {
+  background-color: @base-background-color;
+  font-weight: 300;
+  letter-spacing: .4px;
+
+  .list-tree {
+    color: @text-color;
+  }
+
+  .list-item.selected {
+    color: @contrast-color;
+  }
+
+  .entry::before {
+    height: 40px;
+  }
+
+  .entry.selected {
+    &::before {
+      background: @base-color;
+    }
+
+    > .list-item {
+      color: @contrast-color;
+    }
+  }
+
+  .list-item {
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+
+  .project-root {
+    &::before {
+      height: @tab-height;
+    }
+    > .header {
+      height: @tab-height;
+      display: flex;
+      align-items: center;
+    }
+  }
+}

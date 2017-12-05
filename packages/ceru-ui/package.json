@@ -1,0 +1,63 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55923-1vkl3hb.hb7kkb7qfr/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55923-1vkl3hb.hb7kkb7qfr/package.tgz",
+        "spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55923-1vkl3hb.hb7kkb7qfr/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/apm-install-dir-1171014-55923-1m4jbab.xnnv4e7b9"
+    ]
+  ],
+  "_from": "../d-1171014-55923-1vkl3hb.hb7kkb7qfr/package.tgz",
+  "_id": "ceru-ui@1.0.0",
+  "_inCache": true,
+  "_location": "/ceru-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55923-1vkl3hb.hb7kkb7qfr/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55923-1vkl3hb.hb7kkb7qfr/package.tgz",
+    "spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55923-1vkl3hb.hb7kkb7qfr/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1171014-55923-1vkl3hb.hb7kkb7qfr/package.tgz",
+  "_shasum": "8fcb316d8f0f5ba861228539009a35284d94ab97",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55923-1vkl3hb.hb7kkb7qfr/package.tgz",
+  "_where": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/apm-install-dir-1171014-55923-1m4jbab.xnnv4e7b9",
+  "bugs": {
+    "url": "https://github.com/kyager/ceru-ui/issues"
+  },
+  "dependencies": {},
+  "description": "A sunset colored UI theme.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/kyager/ceru-ui#readme",
+  "keywords": [
+    "ui",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "ceru-ui",
+  "optionalDependencies": {},
+  "readme": "##Ceru UI\n\nThis is a theme featuring warm colors and intended to be easy on your eyes for\nthose long nights of coding.\n\n![Ceru UI](http://keithyager.com/2017-04-08-000714_766x449_scrot.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kyager/ceru-ui.git"
+  },
+  "theme": "ui",
+  "version": "1.0.0"
+}

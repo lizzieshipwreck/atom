@@ -1,0 +1,46 @@
+
+// Config -----------------------------------
+@syntax-hue:          25;
+@syntax-saturation:   13%;
+@syntax-brightness:   18%;
+
+@dark: hsl(26, 15%, 11%);
+@background: hsl(25, 26%, 14%);
+@foreground: hsl(240, 6%, 94%);
+@line-highlight: hsl(24, 31%, 18%);
+@comment: hsl(10, 7%, 44%);
+@gutter-elt: hsl(12, 28%, 36%);
+@string: hsl(13, 27%, 50%);
+@attribute: hsl(330, 71%, 72%);
+@property: hsl(20, 53%, 67%);
+@error: hsl(2, 85%, 59%);
+@tag: hsl(0, 98%, 72%);
+@tag2: hsl(0, 98%, 72%);
+@tag3: hsla(0, 98%, 72%, 0.24);
+@selection: hsl(20, 36%, 26%);
+@variable: hsl(286, 38%, 69%);
+@invisible: hsl(11, 15%, 20%);
+
+// Monochrome -----------------------------------
+@mono-1: @foreground; // default text
+@mono-2: hsl(@syntax-hue,  9%, 55%);
+@mono-3: hsl(@syntax-hue, 10%, 40%);
+
+// Colors -----------------------------------
+@hue-1:   @property;
+@hue-2:   @property;
+@hue-3:   @variable;
+@hue-4:   @string;
+
+@hue-5:   @tag;
+@hue-5-2: @tag;
+
+@hue-6:   @attribute;
+@hue-6-2: @attribute;
+
+// Base colors -----------------------------------
+@syntax-fg:     @foreground;
+@syntax-bg:     @background;
+@syntax-gutter: @gutter-elt;
+@syntax-guide:  @invisible;
+@syntax-accent: @tag;

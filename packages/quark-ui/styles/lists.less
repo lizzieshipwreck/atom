@@ -1,0 +1,18 @@
+.list-group {
+    .two-lines {
+        .secondary-line {
+            color: @text-color-subtle;
+        }
+    }
+
+    li {
+        padding: @component-padding;
+        &.selected {
+            position: relative;
+            background: @background-color-selected;
+            &::before {
+                content: none;
+            }
+        }
+    }
+}

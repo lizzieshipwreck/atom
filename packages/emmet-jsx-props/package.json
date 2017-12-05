@@ -1,0 +1,65 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-35089-q0whtc.m8r83680k9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-35089-q0whtc.m8r83680k9/package.tgz",
+        "spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-35089-q0whtc.m8r83680k9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/apm-install-dir-1171013-35089-11m5fvs.jku1h5mi"
+    ]
+  ],
+  "_from": "../d-1171013-35089-q0whtc.m8r83680k9/package.tgz",
+  "_id": "emmet-jsx-props@1.2.5",
+  "_inCache": true,
+  "_location": "/emmet-jsx-props",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-35089-q0whtc.m8r83680k9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-35089-q0whtc.m8r83680k9/package.tgz",
+    "spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-35089-q0whtc.m8r83680k9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1171013-35089-q0whtc.m8r83680k9/package.tgz",
+  "_shasum": "d8f65645fd6b6b786375459655208a2cef99fdab",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-35089-q0whtc.m8r83680k9/package.tgz",
+  "_where": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/apm-install-dir-1171013-35089-11m5fvs.jku1h5mi",
+  "bugs": {
+    "url": "https://github.com/iJigg/emmet-jsx-props/issues"
+  },
+  "dependencies": {},
+  "description": "Atom package to extend Emmet's JSX expansions to convert string props to js props",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/iJigg/emmet-jsx-props#readme",
+  "keywords": [
+    "emmet",
+    "jsx",
+    "react",
+    "props"
+  ],
+  "license": "MIT",
+  "main": "./lib/emmet-jsx-props",
+  "name": "emmet-jsx-props",
+  "optionalDependencies": {},
+  "readme": "# emmet-jsx-props package\n\nAtom package to extend Emmet's JSX expansions to convert string attributes to js props\n\n## Demo\n![alt tag](https://github.com/iJigg/emmet-jsx-props/raw/master/demo.gif)\n\n## Enable tab completion for JSX with Emmet in Atom\nThis guide assumes you have the emmet and language-babel packages already installed in Atom\n\n1. Open the keymap.cson file by clicking on Atom -> Keymap… in the menu bar\n2. Add these lines of code to your keymap:\n```\n'atom-text-editor[data-grammar~=\"jsx\"]:not([mini])':\n  'tab': 'emmet:expand-abbreviation-with-tab'\n```\n\nNow open a file with JSX code, type div[prop=myProp], press tab and it should autocomplete to `<div prop={myProp}></div>`! (if it's not properly syntax highlighted, select Babel ES6 JavaScript or JSX as the syntax, this won't work otherwise)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iJigg/emmet-jsx-props.git"
+  },
+  "version": "1.2.5"
+}

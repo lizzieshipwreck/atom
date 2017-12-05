@@ -1,0 +1,67 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-36807-7fu845.t45sxde7b9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-36807-7fu845.t45sxde7b9/package.tgz",
+        "spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-36807-7fu845.t45sxde7b9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/apm-install-dir-1171013-36807-aj95ie.ftu8y9cnmi"
+    ]
+  ],
+  "_from": "../d-1171013-36807-7fu845.t45sxde7b9/package.tgz",
+  "_id": "cheesecake-syntax@1.1.2",
+  "_inCache": true,
+  "_location": "/cheesecake-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-36807-7fu845.t45sxde7b9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-36807-7fu845.t45sxde7b9/package.tgz",
+    "spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-36807-7fu845.t45sxde7b9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1171013-36807-7fu845.t45sxde7b9/package.tgz",
+  "_shasum": "08997510d7ce0ab1c19357dcee495a40b99b548e",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171013-36807-7fu845.t45sxde7b9/package.tgz",
+  "_where": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/apm-install-dir-1171013-36807-aj95ie.ftu8y9cnmi",
+  "bugs": {
+    "url": "https://github.com/Evalir/cheesecake-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "Syntax theme that is dark, easy on the eyes and will keep you going for hours, unless the name of the theme makes you grab a cheesecake.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/Evalir/cheesecake-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "cheesecake",
+    "cheesecake-syntax",
+    "evalir",
+    "evalir.io"
+  ],
+  "license": "MIT",
+  "name": "cheesecake-syntax",
+  "optionalDependencies": {},
+  "readme": "# cheesecake-syntax theme\n\nSyntax theme that is dark and easy on the eyes. Designed for long coding sprints with no distractions, unless the name of the theme makes you grab a cheesecake. By @evalir.io\n\n# Development\n\nThis is a work in progress, which means the theme can and will change over time. The theme currently works best with HTML/CSS/JS, C++ and the Arduino dialect of C++. If you find any language that makes the theme look ugly, do send a photo and tell me so I can work on it. Also, feel free to fork the theme and make your own variant, I'd be honored!\n\n# Installation\n- Launch Atom, go to 'Settings'\n- Select the 'install' tab\n- Select 'themes' and look for 'cheesecake'\n- Install and Voila! You have the Cheesecake syntax theme.\n\n# Screenshots\n\nUsing PlatformIO Atom IDE for coding with Arduino.\n![Arduino](https://www.dl.dropboxusercontent.com/s/heslf37gjqlgrcl/Screenshot%202017-05-29%2016.46.20.png?dl=0)\n\nHTML, CSS and Javascript.\n![Web](https://www.dl.dropboxusercontent.com/s/uy0b5vqp4sitwqt/Screenshot%202017-05-29%2016.49.17.png?dl=0)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evalir/cheesecake-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "1.1.2"
+}

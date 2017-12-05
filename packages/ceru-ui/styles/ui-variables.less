@@ -1,0 +1,83 @@
+@import "colors";
+
+// Text Colors
+@text-color:           @white;
+@text-color-subtle:    darken(@white, 25%);
+@text-color-highlight: darken(@white, 10%);
+@text-color-selected:  darken(@white, 10%);
+
+@text-color-info:    lighten(@blue, 5%);
+@text-color-success: lighten(@light-green, 5%);
+@text-color-warning: lighten(@light-orange, 5%);
+@text-color-error:   lighten(@light-red, 5%);
+
+// Background colors
+@background-color-info:    @blue;
+@background-color-success: @green;
+@background-color-warning: @orange;
+@background-color-error:   @red;
+
+@background-color-highlight: lighten(@base-background-color, 5%);
+@background-color-selected:  lighten(@base-background-color, 10%);
+@app-background-color:       darken(@base-background-color, 5%);
+
+// Base colors
+@base-background-color: @black;
+@base-border-color:     darken(@base-background-color, 8%);
+
+// Component colors
+@pane-item-background-color: @base-background-color;
+@pane-item-border-color:     @base-border-color;
+
+@input-background-color: @app-background-color;
+@input-border-color:     @base-border-color;
+
+@tool-panel-background-color: @base-background-color;
+@tool-panel-border-color:     @base-border-color;
+
+@inset-panel-background-color: lighten(@base-background-color, 4%);
+@inset-panel-border-color:     @base-border-color;
+
+@panel-heading-background-color: lighten(@base-background-color, 4%);
+@panel-heading-border-color:     @base-border-color;
+
+@overlay-background-color: lighten(@base-background-color, 5%);
+@overlay-border-color:     @base-border-color;
+
+@button-background-color:          lighten(@base-background-color, 10%);
+@button-background-color-hover:    lighten(@button-background-color, 12%);
+@button-background-color-selected: @button-background-color-hover;
+@button-border-color:              @base-border-color;
+
+@tab-bar-background-color:    lighten(@base-background-color, 2%);
+@tab-bar-border-color:        @base-border-color;
+@tab-background-color:        @tab-bar-background-color;
+@tab-background-color-active: lighten(@base-background-color, 6%);
+@tab-border-color:            @base-border-color;
+
+@tree-view-background-color: @base-background-color;
+@tree-view-border-color:     @base-border-color;
+
+// Site colors
+@ui-site-color-1: @blue;
+@ui-site-color-2: @light-green;
+@ui-site-color-3: @light-orange;
+@ui-site-color-4: @light-red;
+@ui-site-color-5: @yellow;
+
+// Sizes
+@font-size: 11px;
+@input-font-size: 11px;
+
+@disclosure-arrow-size: 11px;
+
+@component-padding: 10px;
+@component-icon-padding: 5px;
+@component-icon-size: 16px;
+@component-line-height: 25px;
+
+@tab-height: 30px;
+
+// Misc
+@component-border-radius: 0;
+@font-family: '.SFNSText-Regular', 'SF UI Text', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;

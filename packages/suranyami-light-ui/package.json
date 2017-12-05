@@ -1,0 +1,63 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55882-pmgncx.xfrt6s9k9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55882-pmgncx.xfrt6s9k9/package.tgz",
+        "spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55882-pmgncx.xfrt6s9k9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/apm-install-dir-1171014-55882-1okreot.nxooclq5mi"
+    ]
+  ],
+  "_from": "../d-1171014-55882-pmgncx.xfrt6s9k9/package.tgz",
+  "_id": "suranyami-light-ui@2.0.0",
+  "_inCache": true,
+  "_location": "/suranyami-light-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55882-pmgncx.xfrt6s9k9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55882-pmgncx.xfrt6s9k9/package.tgz",
+    "spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55882-pmgncx.xfrt6s9k9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1171014-55882-pmgncx.xfrt6s9k9/package.tgz",
+  "_shasum": "b403f2e7d3c43e9370faf298d15ec43a74fb13c8",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55882-pmgncx.xfrt6s9k9/package.tgz",
+  "_where": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/apm-install-dir-1171014-55882-1okreot.nxooclq5mi",
+  "bugs": {
+    "url": "https://github.com/suranyami/suranyami-light-ui/issues"
+  },
+  "dependencies": {},
+  "description": "Light UI theme with tighter sidebar",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/suranyami/suranyami-light-ui#readme",
+  "keywords": [
+    "ui",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "suranyami-light-ui",
+  "optionalDependencies": {},
+  "readme": "# Suranyami Light UI theme\n\nFork of the Atom Light UI theme but with:\n\n* tighter line-spacing in the sidebar\n* increased tree view font-size\n\n![screen shot of Suranyami Light UI Theme](https://raw.githubusercontent.com/suranyami/suranyami-light-ui/master/ui-screen-shot.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suranyami/suranyami-light-ui.git"
+  },
+  "theme": "ui",
+  "version": "2.0.0"
+}

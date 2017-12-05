@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55857-hdqyt8.vxb8s62yb9/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55857-hdqyt8.vxb8s62yb9/package.tgz",
+        "spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55857-hdqyt8.vxb8s62yb9/package.tgz",
+        "type": "local"
+      },
+      "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/apm-install-dir-1171014-55857-1820yl9.mbc323xr"
+    ]
+  ],
+  "_from": "../d-1171014-55857-hdqyt8.vxb8s62yb9/package.tgz",
+  "_id": "min-ui@0.0.4",
+  "_inCache": true,
+  "_location": "/min-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55857-hdqyt8.vxb8s62yb9/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55857-hdqyt8.vxb8s62yb9/package.tgz",
+    "spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55857-hdqyt8.vxb8s62yb9/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1171014-55857-hdqyt8.vxb8s62yb9/package.tgz",
+  "_shasum": "62baa1a90296f1c095e80a5f77561d49538d1bc3",
+  "_shrinkwrap": null,
+  "_spec": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/d-1171014-55857-hdqyt8.vxb8s62yb9/package.tgz",
+  "_where": "/private/var/folders/mm/6t7csjp50nq933c4_03gcfsc0000gn/T/apm-install-dir-1171014-55857-1820yl9.mbc323xr",
+  "bugs": {
+    "url": "https://github.com/jstnjns/min-ui/issues"
+  },
+  "dependencies": {},
+  "description": "A minimal UI for Atom",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.40.0"
+  },
+  "homepage": "https://github.com/jstnjns/min-ui#readme",
+  "keywords": [
+    "adaptive",
+    "minimal",
+    "ui"
+  ],
+  "license": "MIT",
+  "name": "min-ui",
+  "optionalDependencies": {},
+  "readme": "# Minimum UI theme\n\nA minimal UI theme for Atom.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jstnjns/min-ui.git"
+  },
+  "theme": "ui",
+  "version": "0.0.4"
+}

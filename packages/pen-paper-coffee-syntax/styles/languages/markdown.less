@@ -1,0 +1,285 @@
+
+
+.syntax--markup, .syntax--md, .syntax--gfm, .syntax--pfm {
+
+  &.syntax--changed {
+    color: @purple;
+  }
+  &.syntax--deleted {
+    color: @red;
+  }
+  &.syntax--italic {
+    color: @emphasize-color;
+    font-style: italic;
+    .syntax--punctuation {
+      opacity: 0.6;
+    }
+  }
+  &.syntax--bold,
+  &.syntax--heading,
+  &.syntax--strong.syntax--emphasis {
+    color: @bold-color;
+    font-weight: bold;
+    .syntax--punctuation {
+      opacity: 0.5;
+    }
+  }
+  &.syntax--quote {
+    color: @quote-color;
+    font-style: italic;
+    // italics inside quotes/blockquotes
+    .syntax--italic{
+
+      color: @emphasize-quote-color;
+    }
+    .syntax--bold,.syntax--strong{
+      color: @bold-quote-color;
+      font-weight: bold;
+    }
+  }
+
+  &.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
+    color: @blue;
+  }
+  &.syntax--inserted {
+    color: @green;
+  }
+  &.syntax--list {
+    & > .syntax--punctuation {
+      color: @list-color;
+      font-weight: bold;
+    }
+  }
+  &.syntax--raw, &.syntax--embedded.syntax--source.syntax--js {
+    background-color: rgba(245, 250, 252, 0.65);
+    font-style: italic;
+    &.syntax--inline {
+      color: @green;
+    }
+  }
+  &.syntax--strike {
+    text-decoration: line-through;
+  }
+  &.syntax--underline {
+    text-decoration: none;
+    border-bottom: @invisible-ink;
+    border-width: 0px 0px 1px 0px;
+    border-style: none none solid none;
+  }
+  &.syntax--heading {
+    color: @heading-ink;
+    font-weight: normal;
+    // position: relative;
+    &.syntax--heading-1 {
+      font-weight: 900;
+      // font-size: 105%;
+      // font-size: 135%;
+      // bottom: 0.35em;
+      opacity: 1.0;
+    }
+    &.syntax--heading-2 {
+      font-weight: 800;
+      // font-size: 102%;
+      // font-size: 125%;
+      // bottom: 0.25em;
+      // opacity: 0.95;
+      opacity: 0.9;
+    }
+    &.syntax--heading-3 {
+      font-weight: 700;
+      // font-size: 115%;
+      // bottom: 0.15em;
+      // opacity: 0.90;
+      opacity: 0.85;
+    }
+    &.syntax--heading-4,
+    &.syntax--heading-5,
+    &.syntax--heading-6 {
+      // font-size: 105%;
+      // bottom: 0.05em;
+      // opacity: 0.80;
+      opacity: 0.80;
+    }
+    // marker of headings
+    &.syntax--marker {
+      color: fade(@heading-ink, 55%);
+    }
+  }
+
+
+
+  &.syntax--support {
+    color:@very-light-ink;
+  }
+
+  &.syntax--markup.syntax--heading {
+    font-weight: normal;
+  }
+  &.syntax--variable {
+    color: @blue;
+  }
+  &.syntax--entity {
+    color: @light-ink;
+  }
+  &.syntax--punctuation.syntax--definition {
+    &.syntax--begin, &.syntax--end {
+      color: @very-light-ink;
+    }
+  }
+  // Citations, like: [@citekey]
+  &.syntax--username, &.syntax--reference.syntax--variable {
+    // name after @ in citation
+    color:  @citation-name-color;
+  }
+  // language-markdown has .punctutation as child. pfm .mention as sibling
+  &.syntax--mention, &.syntax--reference.syntax--variable > .syntax--punctuation {
+    // @ symbol before citation
+    color: @citation-symbol-color;
+  }
+
+  // all kind of lists
+  // variable.list is for pfm/gfm
+  &.syntax--list {
+
+    &.syntax--variable {
+      color: @list-color;
+      font-weight: bold;
+    }
+    > .syntax--punctuation {
+      font-weight: bold;
+      opacity: 1;
+      color: @list-color;
+
+      .syntax--checkbox {
+        color: @list-color;
+        background: fade(@list-color, 5%);
+      }
+    }
+
+    &.syntax--unordered,
+    &.syntax--ordered {}
+
+      &.syntax--task {
+        &.syntax--completed {
+          color: @ink;
+          opacity: 0.333;
+
+          .syntax--code {
+            background: transparent;
+            color: @ink;
+          }
+
+          .syntax--todo,
+          .syntax--review {
+            color: inherit;
+          }
+
+          .syntax--fixme {
+            background: transparent;
+            outline: none;
+            color: inherit;
+          }
+        }
+      }
+
+      &.syntax--empty {
+        .syntax--punctuation {
+          color: @list-color;
+        }
+      }
+    }
+
+    &.syntax--critic {
+
+      &.syntax--addition {
+        color: @green;
+        &.syntax--marker {
+          color: fade(@green, 50%) !important;
+        }
+      }
+
+      &.syntax--deletion {
+        color:  @red;
+      }
+      .syntax--deletion.syntax--marker {
+        color: fade(@red, 50%) !important;
+      }
+
+
+      &.syntax--substitution {
+        color:   @orange;
+        &.syntax--marker {
+          color: fade(@orange, 50%) !important;
+        }
+        &.syntax--operator {
+          color: darken(@orange, 10%) !important;
+        }
+      }
+
+      &.syntax--comment {
+        color: @comment-ink;
+        &.syntax--marker {
+          color: fade(@comment-ink, 50%) !important;
+        }
+      }
+
+      &.syntax--highlight {
+        color: @blue;
+        &.syntax--marker {
+          color: fade(@blue, 50%) !important;
+        }
+      }
+
+    }
+    &.syntax--math {
+      .syntax--support {
+        color: darken(@green, 10%);
+      }
+
+      .syntax--punctuation.syntax--arguments{
+        color: lighten(@red, 5%);
+      }
+
+      .syntax--tex {
+        &.syntax--constant {
+          color: @orange;
+          &.syntax--numeric {
+            color: @green;
+          }
+        }
+      }
+
+      background: fadeout(@green,90%);
+      color: @green;
+    }
+
+    &.syntax--definition.syntax--block {
+      background: fadeout(@blue,90%);
+    }
+
+
+    &.syntax--footnote, &.syntax--link, &.syntax--auto {
+      &.syntax--destination {
+        .syntax--uri {
+          // Same as general .underline for markups
+          text-decoration: none;
+          border-bottom: @invisible-ink;
+          border-width: 0px 0px 1px 0px;
+          border-style: none none solid none;
+        }
+      }
+
+      // for now disabled as it is not reliable yet
+      // position: relative;
+      // top: -0.5em;
+      // font-size: 85%;
+      // font-weight:900;
+      // so far comes from language-pfm
+
+      // would be better?
+      // font-style: normal;
+      // vertical-align: super;
+      // font-size: 85%;
+      color:@light-ink;
+    }
+  }
