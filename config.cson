@@ -15,6 +15,7 @@
     fixOnSave: true
     lintHtmlFiles: true
   "linter-ui-default":
+    showPanel: true
     showProviderName: true
   welcome:
     showOnStartup: false
